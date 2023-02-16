@@ -6,7 +6,7 @@ public class ArrayPreparation {
             throw new RuntimeException("Пришли крывые данные");
         }
         for( int i =0;  i <arr.length; i++){
-            arr[i] = (int) Math.random()* 100;
+            arr[i] = (int) (Math.random()* 100);
         }
         return arr;
     }
@@ -17,6 +17,6 @@ public class ArrayPreparation {
 
     }
     public void separator(){
-        System.out.println("--------------------------------------------");
+        System.out.println("\n--------------------------------------------");
     }
 }
