@@ -5,9 +5,12 @@ public class Main {
 
         int [] numbers  =  new int[10];
         ArrayPreparation.fillArray(numbers);
-        ArrayPreparation.separator();
         ArrayPreparation.PrintArray(numbers);
         ArrayPreparation.separator();
+        UserSort.sort(numbers);
+        ArrayPreparation.PrintArray(numbers);
+        ArrayPreparation.separator();
+
 
 
 
