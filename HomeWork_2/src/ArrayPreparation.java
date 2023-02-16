@@ -1,6 +1,6 @@
 public class ArrayPreparation {
 
-    public int[] fillArray(int [] arr)
+    public static int[] fillArray(int [] arr)
     {
         if (arr.length == 0){
             throw new RuntimeException("Пришли крывые данные");
@@ -10,13 +10,13 @@ public class ArrayPreparation {
         }
         return arr;
     }
-    public void PrintArray(int[] arr){
+    public static void PrintArray(int[] arr){
         for (int i = 0; i <arr.length; i++ ){
             System.out.print(arr[i] + " ");
         }
 
     }
-    public void separator(){
+    public static void separator(){
         System.out.println("\n--------------------------------------------");
     }
 }
